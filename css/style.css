@@ -106,6 +106,9 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .solution-btn {
   font-family: inherit;
@@ -114,12 +117,21 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
 }
 .solution-btn:focus,
 .solution-btn:hover {
   background-color: #404bbf;
+}
+.solution {
+  padding: 188px 0;
 }
 /* ----------ADVANTAGES list----------- */
 .advantages-subtitles {
