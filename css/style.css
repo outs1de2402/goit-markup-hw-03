@@ -154,7 +154,7 @@ p {
   gap: 24px;
 }
 .advantages {
-  padding: 120px;
+  padding: 120px 0;
 }
 .advantages-item {
   width: calc((100% - 72px) / 4);
@@ -163,9 +163,12 @@ p {
 /*------------------------ OUR TEAM-------------------- */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-title {
   font-weight: 700;
@@ -175,6 +178,7 @@ p {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-subtitles {
   font-weight: 500;
@@ -191,6 +195,15 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-img {
+  margin-bottom: 32px;
+}
+.team-list-container {
 }
 /* -------PORTFOLIO------ */
 .portfolio-title {
