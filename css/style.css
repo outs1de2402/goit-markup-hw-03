@@ -21,6 +21,9 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
 /* -----------------HEADER--------------- */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -256,6 +259,7 @@ p {
 /* ----------FOOTER-------- */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -265,6 +269,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .span-footer {
   font-weight: 700;
@@ -277,9 +283,10 @@ p {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .visually-hidden {
   position: absolute;
